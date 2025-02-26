@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Bella Pastos</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">La Bella Pastos</div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to La Bella Pastos</h1>
+            <p>Experience authentic Italian cuisine in the heart of the city</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-grid" id="menuGrid"></div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>Our Story</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Founded in 1995, La Bella Pastos brings the authentic flavors of Italy to your table. Our recipes have been passed down through generations, ensuring each dish tells a story of tradition and passion.</p>
+                <p>We source only the finest ingredients and prepare everything fresh daily. Our chefs combine traditional techniques with modern creativity to create unforgettable dining experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Location</h3>
+                <p>123 Pasta Street</p>
+                <p>Foodville, FD 12345</p>
+                <h3>Hours</h3>
+                <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+                <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+                <h3>Contact</h3>
+                <p>Phone: (+234) 8147 756 633</p>
+                <p>Email: davidchuka57@gmail.com</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> La Bella Pastos. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
